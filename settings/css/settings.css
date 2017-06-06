@@ -226,8 +226,7 @@ input#openid, input#webdav {
 }
 
 #lostpassword,
-#groups,
-#passwordform {
+#groups {
 	display: inline-block;
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -239,6 +238,11 @@ input#openid, input#webdav {
 #passwordform {
 	margin-bottom: 0;
 	padding-bottom: 0;
+}
+
+#passwordform {
+	clear: both;
+	display: block;
 }
 
 #groups {
