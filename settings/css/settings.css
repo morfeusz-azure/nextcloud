@@ -12,6 +12,10 @@ input#openid, input#webdav {
 
 /* PERSONAL */
 
+.clear {
+	clear: both;
+}
+
 /* icons for sidebar */
 .nav-icon-personal-settings {
 	background-image: url('../img/personal.svg?v=1');
